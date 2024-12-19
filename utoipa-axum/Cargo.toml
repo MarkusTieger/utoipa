@@ -15,7 +15,7 @@ rust-version.workspace = true
 debug = []
 
 [dependencies]
-axum = { version = "0.7", default-features = false }
+axum = { version = "0.8.0-rc.1", default-features = false }
 utoipa = { version = "5.0.0", path = "../utoipa", default-features = false, features = [
     "macros",
 ] }
